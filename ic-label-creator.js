@@ -11,6 +11,9 @@ function drawChip(chipName) {
   console.log('=== ' + chipName);
   
   var chip = chips[chipName];
+  if (!chip) {
+        chip = nixieChips[chipName];
+  }
   var numPins = Object.keys(chip.pins).length;
   var chipWidth = numPins / 2 * globals.pinDistance + 1;
   var chipHeightPins = ('heigthPins' in chip) ? chip.heigthPins : 3;
