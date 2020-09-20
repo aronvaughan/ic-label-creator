@@ -507,31 +507,7 @@ var chips = {
       28: '+',
     },
   },      
-  
-  '74HC595' : {
-    description : '8b Shift Reg',
-    type: 'flipflop',
-    pins: {
-      1 : 'QB',
-      2 : 'QC',
-      3 : 'QD',
-      4 : 'QE',
-      5 : 'QF',
-      6 : 'QG',
-      7 : 'QH',
-      8 : '⏚',
-      
-      9 : "QH'",
-      10: 'S̅C̅L̅R̅',
-      11: 'SCLK',
-      12: 'RCLK',
-      13: 'O̅E̅',
-      14: 'SER',
-      15: 'QA',
-      16: '+',
-    },
-  },    
-  
+
   // empty template
   '555' : {
     description : '',
