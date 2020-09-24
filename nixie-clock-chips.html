@@ -35,6 +35,7 @@
     pageWidth       : 210 - 20, // A4 height minus margin
     pageHeight      : 279.4 - 40, // ANSI letter height minus margin   
     pinDistance     : 2.54,
+      wrapPinDistance     : 2.2, //2.2 // 2.54
     // Starting position for first chip on page
     chipPositionX   : 0,
     chipPositionY   : 0,
@@ -54,6 +55,10 @@
     drawChip('74HC595');
     drawChip('74HC595');
     drawChip('74HC595');
+    drawWrap('74HC595');
+      drawWrap('74HC595');
+      drawWrap('74HC595');
+      drawWrap('74HC595');
     drawChip('IN-16');
     drawChip('IN-16');
     drawChip('IN-16');
@@ -64,6 +69,10 @@
     drawChip('K155ID1');
     drawChip('K155ID1');
     drawChip('K155ID1');
+      drawWrap('K155ID1');
+      drawWrap('K155ID1');
+      drawWrap('K155ID1');
+      drawWrap('K155ID1');
   });
   
 </script> 

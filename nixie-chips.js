@@ -60,10 +60,10 @@ var nixieChips = {
             7 : 'QH',
             8 : '⏚',
 
-            9 : "QH'-SOut",
+            9 : "SOut",
             10: 'S̅C̅L̅R̅',
-            11: 'SCLK',
-            12: 'RCLK',
+            11: 'SH_CP',
+            12: 'ST_CP',
             13: 'O̅E̅',
             14: 'SER',
             15: 'QA',
